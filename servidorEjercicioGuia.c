@@ -5,8 +5,7 @@
 #include <sys/socket.h>
 #include <netinet/in.h>
 #include <stdio.h>
-
-
+#include <ctype.h>
 
 int main(int argc, char *argv[])
 {
@@ -29,7 +28,7 @@ int main(int argc, char *argv[])
 	//htonl formatea el numero que recibe al formato necesario
 	serv_adr.sin_addr.s_addr = htonl(INADDR_ANY);
 	// establecemos el puerto de escucha
-	serv_adr.sin_port = htons(9000);
+	serv_adr.sin_port = htons(9030);
 	if (bind(sock_listen, (struct sockaddr *) &serv_adr, sizeof(serv_adr)) < 0)
 		printf ("Error al bind");
 	
@@ -86,14 +85,48 @@ int main(int argc, char *argv[])
 				strcpy (respuesta,"SI");
 				else
 					strcpy (respuesta,"NO");
-			else //quiere saber si es alto
+			else if (codigo ==3)
 			{
+				//quiere saber si es alto
 				p = strtok( NULL, "/");
 				float altura =  atof (p);
 				if (altura > 1.70)
 					sprintf (respuesta, "%s: eres alto",nombre);
 				else
 					sprintf (respuesta, "%s: eresbajo",nombre);
+			}
+			else if (codigo ==4)
+			{
+				unsigned long int nombre_len = strlen(nombre);
+				char nombreMayus[nombre_len];
+				for (int e = 0; e < nombre_len; e++)
+				{
+					nombreMayus[e] = toupper(nombre[e]); 
+				}
+				sprintf (respuesta, "%s", nombreMayus);
+			}
+			else if (codigo ==5)
+			{
+				int s=0;
+				unsigned long int nombre_len = strlen(nombre);
+				char cp_nombre[nombre_len];
+				strcpy(cp_nombre,nombre);
+				while(s < nombre_len)
+				{
+					if(nombre[0 + s] != cp_nombre[nombre_len - 1 - s])
+					{
+						s = nombre_len + 1;
+					}
+					else
+						s++;
+				}
+				if(s ==nombre_len)
+				{
+					strcpy (respuesta,"SI");
+				}
+				else
+					strcpy (respuesta,"NO");
+				
 			}
 				
 			if (codigo !=0)

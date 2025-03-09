@@ -1,0 +1,17 @@
+C:\share\EjercicioGuiaGitHub\MiEjercicioGuia\clienteEjercicioGuia\cliente2Form\bin\Debug\net7.0-windows\cliente2Form.exe
+C:\share\EjercicioGuiaGitHub\MiEjercicioGuia\clienteEjercicioGuia\cliente2Form\bin\Debug\net7.0-windows\cliente2Form.deps.json
+C:\share\EjercicioGuiaGitHub\MiEjercicioGuia\clienteEjercicioGuia\cliente2Form\bin\Debug\net7.0-windows\cliente2Form.runtimeconfig.json
+C:\share\EjercicioGuiaGitHub\MiEjercicioGuia\clienteEjercicioGuia\cliente2Form\bin\Debug\net7.0-windows\cliente2Form.dll
+C:\share\EjercicioGuiaGitHub\MiEjercicioGuia\clienteEjercicioGuia\cliente2Form\bin\Debug\net7.0-windows\cliente2Form.pdb
+C:\share\EjercicioGuiaGitHub\MiEjercicioGuia\clienteEjercicioGuia\cliente2Form\obj\Debug\net7.0-windows\cliente2Form.csproj.AssemblyReference.cache
+C:\share\EjercicioGuiaGitHub\MiEjercicioGuia\clienteEjercicioGuia\cliente2Form\obj\Debug\net7.0-windows\cliente2Form.Form1.resources
+C:\share\EjercicioGuiaGitHub\MiEjercicioGuia\clienteEjercicioGuia\cliente2Form\obj\Debug\net7.0-windows\cliente2Form.csproj.GenerateResource.cache
+C:\share\EjercicioGuiaGitHub\MiEjercicioGuia\clienteEjercicioGuia\cliente2Form\obj\Debug\net7.0-windows\cliente2Form.GeneratedMSBuildEditorConfig.editorconfig
+C:\share\EjercicioGuiaGitHub\MiEjercicioGuia\clienteEjercicioGuia\cliente2Form\obj\Debug\net7.0-windows\cliente2Form.AssemblyInfoInputs.cache
+C:\share\EjercicioGuiaGitHub\MiEjercicioGuia\clienteEjercicioGuia\cliente2Form\obj\Debug\net7.0-windows\cliente2Form.AssemblyInfo.cs
+C:\share\EjercicioGuiaGitHub\MiEjercicioGuia\clienteEjercicioGuia\cliente2Form\obj\Debug\net7.0-windows\cliente2Form.csproj.CoreCompileInputs.cache
+C:\share\EjercicioGuiaGitHub\MiEjercicioGuia\clienteEjercicioGuia\cliente2Form\obj\Debug\net7.0-windows\cliente2Form.dll
+C:\share\EjercicioGuiaGitHub\MiEjercicioGuia\clienteEjercicioGuia\cliente2Form\obj\Debug\net7.0-windows\refint\cliente2Form.dll
+C:\share\EjercicioGuiaGitHub\MiEjercicioGuia\clienteEjercicioGuia\cliente2Form\obj\Debug\net7.0-windows\cliente2Form.pdb
+C:\share\EjercicioGuiaGitHub\MiEjercicioGuia\clienteEjercicioGuia\cliente2Form\obj\Debug\net7.0-windows\cliente2Form.genruntimeconfig.cache
+C:\share\EjercicioGuiaGitHub\MiEjercicioGuia\clienteEjercicioGuia\cliente2Form\obj\Debug\net7.0-windows\ref\cliente2Form.dll

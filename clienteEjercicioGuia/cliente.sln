@@ -1,7 +1,11 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 11.00
-# Visual C# Express 2010
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33801.468
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "clienteForm", "WindowsFormsApplication1\clienteForm.csproj", "{F5E08E40-5E04-41A2-AFB5-56E3E3274D24}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "cliente2Form", "cliente2Form\cliente2Form.csproj", "{4129BCC5-50A9-4F5F-9118-C240F9E35A36}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -13,8 +17,15 @@ Global
 		{F5E08E40-5E04-41A2-AFB5-56E3E3274D24}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F5E08E40-5E04-41A2-AFB5-56E3E3274D24}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F5E08E40-5E04-41A2-AFB5-56E3E3274D24}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4129BCC5-50A9-4F5F-9118-C240F9E35A36}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4129BCC5-50A9-4F5F-9118-C240F9E35A36}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4129BCC5-50A9-4F5F-9118-C240F9E35A36}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4129BCC5-50A9-4F5F-9118-C240F9E35A36}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8146D76F-4206-4F3C-8BF6-46C2FDA82C3A}
 	EndGlobalSection
 EndGlobal
